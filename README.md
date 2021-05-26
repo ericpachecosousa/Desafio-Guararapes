@@ -23,20 +23,14 @@ Seguindo o devido Fluxo:
 
 > Cliente HTTP
 >> Controllers
->>> Request
->>>> Servicos
+>>> Servicos
 >>>>> Repositórios
 >
 >>>Serviços
 >
->>>Controllers
->
->>Request
+>>Controllers
 >
 > Cliente HTTP
-
-
-As Interfaces nas camadas de Repositório fomentam o Principio de Inversão de Dependencia e Diminui o acoplamento, 
 
 #### Pom.xml
 > Abriga todas as dependencias do projeto
@@ -61,17 +55,17 @@ As Interfaces nas camadas de Repositório fomentam o Principio de Inversão de D
 
 
 #### Dto
-> Abriga o clases que é usada para logica de negocio da Fachada
+> Abriga as modelagens de itegração entre com as APIS.
 
 #### Utils
 > Classes de Apoio para execução de tarefas específicas não funcionais.
->> Date Utils (Comparação de Datas )
+>> Date Utils (Formatação de data )
 >> 
-### Executando o Projeto
+### Executando o Projeto 
 
-O ideal antes da execução do projeto é rodar o mavem para ele sincronizar o projeto em seu ambiente de trabalho
+O ideal antes da execução do projeto é rodar o maven para ele sincronizar o projeto em seu ambiente de trabalho
 ```
-No canto inferior esquerdo, na barra de ações tem um botão de play
+Execute o mv -install para o maven fazer a sincronização com todas as dependencias
 ```
 
 ### Utilizando o Swagger
@@ -100,10 +94,10 @@ http://localhost:8080/swagger-ui.html
 >>> Atualiza o registro  (o json´é passado no corpo da requisição)
 
 >> Verbo DELETE
->>> Remove um  registro  (neste caso, o json precisa conter somente a propriedade id preenchida)
+>>> Remove um  registro  (enviar o id na url da rota)
 
 
-#### Referente ao requisito do projeto da fachada criar uma iteração entre os Rest via HTTPS montar o objeto completo entre pedido e seus respectivos itens
+#### Referente ao requisito do projet, a fachada solicitada tem o objetivo de criar uma iteração entre os Rest via HTTPS, para mostra o objeto completo.
 
 
 > Controller
