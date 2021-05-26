@@ -84,7 +84,7 @@ http://localhost:8080/swagger-ui.html
 
 
 
-#### Todas as classes estão contemplandoas quatros operações básicas do CRUD (Create, Read, Update,Delete)
+#### Todas as classes estão contemplado quatros operações básicas do CRUD (Create, Read, Update,Delete)
 
 
 > URL: /api/pedido Pedido
@@ -103,7 +103,7 @@ http://localhost:8080/swagger-ui.html
 >>> Remove um  registro  (neste caso, o json precisa conter somente a propriedade id preenchida)
 
 
-#### Criar uma fachada que faça um iteração entre os Rest via HTTPS montar o objeto completo entre pedido e seus respectivos itens
+#### Referente ao requisito do projeto da fachada criar uma iteração entre os Rest via HTTPS montar o objeto completo entre pedido e seus respectivos itens
 
 
 > Controller
